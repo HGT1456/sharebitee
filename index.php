@@ -27,7 +27,7 @@
    $host = "sql202.infinityfree.com";
    $user = "if0_41925173";
    $pass = "JpHgbdU9dZW";
-   $dbname = "if0_41925173_sharebite"; // Tên này phải khớp với tên DB bạn vừa tạo trên web
+   $dbname = "if0_41925173_sharebitee"; // Tên này phải khớp với tên DB bạn vừa tạo trên web
    
    $conn = new mysqli($host, $user, $pass, $dbname);
    
