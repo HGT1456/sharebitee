@@ -28,7 +28,10 @@
    $user = "if0_41925173";
    $pass = "JpHgbdU9dZW";
    $dbname = "if0_41925173_sharebitee"; // Tên này phải khớp với tên DB bạn vừa tạo trên web
-   
+   $host = "localhost";        // Sửa từ sql202... thành localhost
+$user = "root";             // Sửa thành root (mặc định của XAMPP)
+$pass = "";                 // Để trống (mặc định của XAMPP)
+ $dbname = "demo_t";         // Tên database bạn đã tạo ở Localhost lúc đầu
    $conn = new mysqli($host, $user, $pass, $dbname);
    // Thêm dòng dưới đây để đọc được tiếng Việt
 $conn->set_charset("utf8mb4");
